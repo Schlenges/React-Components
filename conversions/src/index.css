@@ -1,0 +1,64 @@
+.App {
+  display: flex;
+  justify-content: center;
+  height: 100vH;
+}
+
+label {
+  font-size: 1.5em;
+}
+
+select {
+  margin-right: 0.5em;
+}
+
+form {
+  padding: 1em;
+  background-color: rgba(0, 0, 0, 0.1);
+  border-radius: 0 0 20px 20px;
+}
+
+.container {
+  display: inline-block;
+  margin-top: 5em;
+}
+
+.header {
+  display: flex;
+  justify-content: center;
+  background-color: rgb(0, 0, 0);
+  border-radius: 20px 20px 0 0;
+  color: white;
+}
+
+.pure-button {
+  border-radius: 4px;
+  margin: 1em;
+}
+
+.convert-button {
+  display: block;
+  margin: 1.5em 0 0;
+  color: #151515;
+  text-shadow: 0 1px 1px rgba(0, 0, 0, 0.2);
+  background: rgb(223, 223, 223);
+  box-shadow: 0.3rem 0.3rem 0.5rem rgba(0, 0, 0, 0.3), -0.2rem -0.2rem 0.4rem rgba(255, 255, 255, 0.84);
+}
+
+.convert-button:active {
+  box-shadow: inset 0.2rem 0.2rem 0.5rem rgba(0, 0, 0, 0.3), inset -0.2rem -0.2rem 0.5rem rgba(255, 255, 255, 0.25);
+}
+
+.button-small {
+  font-size: 85%;
+  box-shadow: 0.3rem 0.3rem 0.5rem rgb(179, 179, 179), -0.2rem -0.2rem 0.4rem #ffffffc9;
+  background: #DFDFDF;
+}
+
+.button-small:hover {
+  background-image: none;
+}
+
+.button-small:active {
+  box-shadow: inset -0.2rem -0.2rem 0.4rem #ffffffc9, inset 0.3rem 0.3rem 0.5rem rgb(179, 179, 179);
+}
